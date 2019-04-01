@@ -18,7 +18,21 @@ export class AppComponent {
 		this.lexer = new LexerT7("");
 		this.syntacticAnalyzer = new SyntacticAnalyzerT7([]);
 
+		this.compile("u");
+		console.log("------------");
+		this.compile("z");
+		console.log("------------");
+		this.compile("uz");
+		console.log("------------");
+		this.compile("uwz");
+		console.log("------------");
+		this.compile("uwxz");
+		console.log("------------");
+		this.compile("uwyz");
+		console.log("------------");
 		this.compile("uwyxz");
+		console.log("------------");
+		this.compile("uwxyz");
 		console.log("------------");
 	}
 
